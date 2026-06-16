@@ -115,6 +115,12 @@ export default function Hero() {
                   <path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
+              <a href={about.social.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
+                LinkedIn
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M3 11L11 3M11 3H5M11 3v6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </a>
               <a href={about.social.github} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">
                 Schilion
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

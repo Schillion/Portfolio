@@ -209,7 +209,7 @@ export const about = {
   social: {
     github: 'https://github.com/Schilion',
     github2: 'https://github.com/Schillion',
-    linkedin: '#',
+    linkedin: 'https://www.linkedin.com/in/timothy-clemente-938691284/',
     twitter: '#',
   },
 };

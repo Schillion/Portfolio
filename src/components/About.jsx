@@ -25,6 +25,7 @@ export default function About() {
             </p>
             <div style={{ marginTop: '28px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               <a href={`mailto:${about.email}`} className="btn btn-primary">Email me</a>
+              <a href={about.social.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">LinkedIn</a>
               <a href={about.social.github} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">Schilion</a>
               <a href={about.social.github2} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">Schillion</a>
             </div>
